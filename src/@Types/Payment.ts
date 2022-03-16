@@ -9,4 +9,14 @@ export namespace Payment {
   export type PreviewInput = AlgaNews.components['schemas']['PaymentPreviewInput']
   export type Summary = AlgaNews.components['schemas']['PaymentSummary']
   export type Paginated = AlgaNews.components['schemas']['PaymentsPaginated']
+  export type PostWithEarnings = AlgaNews.components['schemas']['PostWithEarnings']
+
+  export type Query = {
+    payeeId?: number;
+    payeeEmail?: number;
+    scheduledToMonth?: string;
+    page?: number;
+    size?: number;
+    sort?: string;
+  }
 }
