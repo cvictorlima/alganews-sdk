@@ -1,5 +1,6 @@
 import * as services from './services'
 import * as utils from './utils'
+import * as types from './@Types'
 
 export { default as FileService } from './services/File.service'
 export { default as MetricService } from './services/Metric.service'
@@ -14,5 +15,6 @@ export * from './@Types'
 
 export default {
   services,
-  utils
+  utils,
+  types
 }
