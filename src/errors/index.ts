@@ -9,10 +9,10 @@ export const ERRORS = {
   BUSINESS_ERROR: "https://api.alganews.com.br/business-error",
 };
 
-export { default as ForbiddenError } from './Forbidden.error'
-export { default as BusinessError } from './Business.error'
-export { default as GenericError } from './Generic.error'
-export { default as InvalidDataError } from './InvalidData.error'
-export { default as InvalidParameterError } from './InvalidParameter.error'
-export { default as ResourceNotFoundError } from './ResourceNotFound.error'
-export { default as SystemError } from './System.error'
+export { default as ForbiddenError } from "./Forbidden.error";
+export { default as BusinessError } from "./Business.error";
+export { default as GenericError } from "./Generic.error";
+export { default as InvalidDataError } from "./InvalidData.error";
+export { default as InvalidParameterError } from "./InvalidParameter.error";
+export { default as ResourceNotFoundError } from "./ResourceNotFound.error";
+export { default as SystemError } from "./System.error";
