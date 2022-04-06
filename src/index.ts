@@ -1,6 +1,7 @@
 import * as services from "./services";
 import * as utils from "./utils";
 import * as types from "./@Types";
+import * as errors from "./errors";
 
 export { default as FileService } from "./services/File.service";
 export { default as MetricService } from "./services/Metric.service";
@@ -17,4 +18,5 @@ export default {
   services,
   utils,
   types,
+  errors,
 };
